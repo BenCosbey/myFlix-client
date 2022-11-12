@@ -1,5 +1,31 @@
-$color: steelblue;
+$color-h1: #64dd17;
 
-.my-flix {
-    color: $color;
+h1 {
+    background-color: $color-h1;
+}
+
+h2 {
+    background-color: darken($color-h1, 25%);
+    box-shadow: 0 8px 8px 4px #888;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+a {
+    cursor: pointer;
+}
+
+img {
+    background-color: #cdcdcd;
+}
+
+button {
+    margin: 0.5em;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 1.35em;
+    border: 1px solid #dedede;
+    border-radius: 13px;
 }
