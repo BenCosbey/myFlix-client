@@ -12,7 +12,7 @@ class DNMApplication extends React.Component {
       <Container fluid>
         <Row>
           <h1 className="text-dark text-center p-3 m-0 w-100">
-            Date Night Movies!
+            All the movies
           </h1>
         </Row>
         <MainView />
