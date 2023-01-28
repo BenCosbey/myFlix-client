@@ -9,13 +9,10 @@
   "repository": "https://github.com/loquacious-puppy-29ae70/myFlix-client.git",
   "author": "Ben Cosbey <mrcosbey@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@parcel/transformer-sass": "2.0.0-rc.0"
-  },
   "dependencies": {
     "@redux-devtools/extension": "^3.2.3",
     "axios": "^1.1.3",
-    "parcel": "^2.0.0-rc.0",
+    "parcel": "^2.8.3",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
@@ -27,5 +24,9 @@
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "process": "^0.11.10"
   }
 }
